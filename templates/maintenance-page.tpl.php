@@ -29,7 +29,7 @@
     <?php if (theme_get_setting('image_logo','responsive_blog')): ?>
       <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a></div><?php endif; ?>
+      </a><span id="logoTekst"> Welzijnsschakel Hoboken </span></div><?php endif; ?>
     <?php else: ?>
       <hgroup id="site-name-wrap">
         <h1 id="site-name">
@@ -55,7 +55,18 @@
     </div>
   </div>
   
+  <footer id="footer-bottom">
+    
+    <div id="bottom" class="clearfix">
+      <div class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?> <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></div>
+      <div class="credit"><?php print t('Created by'); ?>  <a href="http://itsallinthevix.wc.lt" target="_blank">It's All in the Vix.!</a></div>
+    </div>
+  </footer>
+  
 </div>
+
+
+
 
 </body>
 </html>

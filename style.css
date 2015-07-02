@@ -369,6 +369,8 @@ td{
   font-size: 55px;
   font-family: 'Anton', sans-serif;
   padding-left: 10px;
+  position: relative;
+  top: -30px;
 }
 #site-name {
   margin-right: 270px;
@@ -393,7 +395,7 @@ td{
 }
 #header img {
   height: auto;
-  max-width: 100%;
+  max-width: 33%;
 }
 #header #site-logo { 
   margin: 0 3%;
